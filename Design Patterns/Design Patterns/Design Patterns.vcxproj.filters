@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01 - Creational">
+      <UniqueIdentifier>{e3cd69d8-269e-4b1c-ba06-01f5bc5649eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 - Structural">
+      <UniqueIdentifier>{e9f14cd3-44a8-4575-8e7f-4c59aa345c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 - Behavorial">
+      <UniqueIdentifier>{29b07209-2ba9-4090-88dd-eee6d18b9b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01 - Creational\Singleton">
+      <UniqueIdentifier>{96e5bba2-d6ed-4a48-a188-55ebbbcef4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 - Structural\Adapter">
+      <UniqueIdentifier>{3c609bbf-23c9-4f8d-971a-888965d6de53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MotherShip.cpp">
+      <Filter>Source Files\01 - Creational\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Source Files\01 - Creational\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MotherShip.hpp">
+      <Filter>Source Files\01 - Creational\Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
