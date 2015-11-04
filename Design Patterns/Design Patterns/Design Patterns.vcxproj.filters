@@ -39,10 +39,28 @@
     <ClCompile Include="Adapter.cpp">
       <Filter>Source Files\02 - Structural\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="CentralProcessingUnit.cpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Cockroach.cpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboticCockroach.cpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MotherShip.hpp">
       <Filter>Source Files\01 - Creational\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralProcessingUnit.hpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Cockroach.hpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboticCockroach.hpp">
+      <Filter>Source Files\02 - Structural\Adapter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
