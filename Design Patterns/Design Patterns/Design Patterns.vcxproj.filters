@@ -28,6 +28,9 @@
     <Filter Include="Source Files\02 - Structural\Adapter">
       <UniqueIdentifier>{3c609bbf-23c9-4f8d-971a-888965d6de53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\03 - Behavorial\Observer">
+      <UniqueIdentifier>{89bf1ec2-6334-4b65-a5c3-a6a7609192fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MotherShip.cpp">
@@ -48,6 +51,15 @@
     <ClCompile Include="RoboticCockroach.cpp">
       <Filter>Source Files\02 - Structural\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\03 - Behavorial\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hatchery.cpp">
+      <Filter>Source Files\03 - Behavorial\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\03 - Behavorial\Observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MotherShip.hpp">
@@ -61,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="RoboticCockroach.hpp">
       <Filter>Source Files\02 - Structural\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Hatchery.hpp">
+      <Filter>Source Files\03 - Behavorial\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.hpp">
+      <Filter>Source Files\03 - Behavorial\Observer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
